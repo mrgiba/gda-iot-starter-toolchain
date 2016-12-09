@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: gda-iot-starter
+  host: gda-iot-starter
+  disk_quota: 1024M
+  services:
+  - gda-iot-starter-cloudantNoSQLDB
+  - gda-iot-starter-iotf-service
